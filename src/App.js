@@ -1,24 +1,13 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Break from './components/Break';
+import Session from './components/Session';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello this is Han learning to program a ReactJS app
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <p id="break-label">Break</p>
+      <Break />
+      <Session />
     </div>
   );
 }
